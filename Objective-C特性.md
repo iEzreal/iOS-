@@ -55,6 +55,8 @@
 	 * 如果赋值过来的是NSMutableArray，copy之后是NSArray
 	 * 如果赋值过来的是NSArray，copy之后是NSArray
 	 ```
+	 
+***
 
 #### Category（分类）
 Objective-C 2.0之后添加的语言特性，主要作用就是在不改变原有类的前提下，动态的给这个类添加一些方法。
@@ -79,6 +81,7 @@ Objective-C 2.0之后添加的语言特性，主要作用就是在不改变原�
 	* 分解体积庞大的类文件
 	* 把Framework的私有方法公开化
 
+***
 
 #### 关联对象
 关联对象由AssociationsManager管理，并在AssociationsHashMap存储，
@@ -125,6 +128,7 @@ id _Nullable objc_getAssociatedObject(id _Nonnull object, const void * _Nonnull 
 void objc_removeAssociatedObjects(id _Nonnull object)
 ```
 
+***
 
 #### Extension（扩展）
 类扩展(extension）是category的一个特例，有时候也被称为匿名分类。它的作用是为一个类添加一些私有的成员变量和方法。
@@ -144,6 +148,7 @@ void objc_removeAssociatedObjects(id _Nonnull object)
 * iOS当中以@protocol形式体现
 * 传递方式为一对一
 
+***
 
 #### NSNotification (通知)
 * 使用**观察者模式**来实现，用于跨层传递消息的机制
@@ -151,7 +156,7 @@ void objc_removeAssociatedObjects(id _Nonnull object)
 
 * 如何实现通知机制？
   
-
+***
 
 #### KVO
 
